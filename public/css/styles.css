@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+* {
+  /* background-color: #01010f; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+}
+section {
+  width: 80vw;
+  padding: 50px 20px;
+  height: 90vh;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  font-family: 'Comfortaa', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: regular;
+  font-style: normal;
+}
+
+/* NAVBAR STYLES */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  padding: 0px 100px;
+  /* position: fixed;
+  z-index: 10; */
+}
+.logo a {
+  font-weight: bolder;
+  font-size: 22px;
+  color: goldenrod;
+  align-items: center;
+  justify-content: center;
+}
+.logo span {
+  font-size: 80px;
+  color: rgb(4, 192, 192);
+}
+.logo a {
+  color: goldenrod;
+  font-weight: bold;
+}
+.nav_links {
+  display: flex;
+  gap: 150px;
+}
+.nav_links ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 900;
+}
+.nav_links ul li a {
+  color: goldenrod;
+}
+.nav_links ul li a:active {
+  color: rgb(4, 192, 192);
+  text-decoration: underline;
+}
+
+.nav_links ul li a:hover {
+  color: rgb(4, 192, 192);
+}
+
+.tracking-in-expand {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hireBtn a {
+  height: 30px;
+  width: 120px;
+  background-color: goldenrod;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-weight: bold;
+  color: #01010f;
+}
+.heroleft {
+}
+.helloText {
+  font-size: 30px;
+  padding-bottom: 40px;
+  color: goldenrod;
+}
+.nameText {
+  color: rgb(223, 247, 247);
+  font-size: 40px;
+}
