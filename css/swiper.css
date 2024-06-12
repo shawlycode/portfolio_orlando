@@ -20,6 +20,34 @@
   text-align: center;
   height: inherit;
 }
+.swiper-slide h3 {
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.swiper-slide h2 {
+  color: rgb(4, 192, 192);
+  font-size: 35px;
+  font-weight: 700;
+  /* padding: 20px 0; */
+}
+.swiper-slide h4 {
+  color: goldenrod;
+  font-size: 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 10px 0;
+  letter-spacing: 2px;
+}
+.swiper-slide p {
+  color: rgb(223, 247, 247);
+  font-size: 14px;
+  font-weight: 300;
+
+  letter-spacing: 2px;
+  line-height: 18px;
+}
 
 .swiper-slide:nth-child(1n) {
   background-color: gold;
