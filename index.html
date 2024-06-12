@@ -6,7 +6,12 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/script.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="./css/swiper.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -19,7 +24,9 @@
         <ul>
           <li class="tracking-in-expand"><a href="#">Home</a></li>
           <li class="tracking-in-expand"><a href="#aboutSection">About</a></li>
-          <li class="tracking-in-expand"><a href="">Resume</a></li>
+          <li class="tracking-in-expand">
+            <a href="#resumeSection">Resume</a>
+          </li>
           <li class="tracking-in-expand"><a href="">Services</a></li>
           <li class="tracking-in-expand"><a href="">Skills</a></li>
           <li class="tracking-in-expand"><a href="">Projects</a></li>
@@ -74,7 +81,34 @@
         </div>
       </div>
     </section>
-    <section id="heroSection">Resume Section</section>
+    <section id="resumeSection">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h2>2014-2015</h2>
+            <h3>Bsc Information Technology</h3>
+            <h4>WisconsinInternational University</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est,
+              quos non nemo distinctio explicabo excepturi voluptate
+              perspiciatis possimus cupiditate deserunt. Lorem ipsum dolor sit
+              amet consectetur, adipisicing elit. Est, quos non nemo distinctio
+              explicabo excepturi voluptate perspiciatis possimus cupiditate
+              deserunt. Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit.
+            </p>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+      </div>
+    </section>
     <section id="heroSection">Services Section</section>
     <section id="heroSection">Skills Section</section>
     <section id="heroSection">Projects Section</section>
@@ -82,5 +116,7 @@
     <section id="heroSection">Contact Section</section>
     <section id="heroSection">Footer Section</section>
   </body>
-  <script src="./script.js"></script>
+  <script src="./js/script.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </html>
