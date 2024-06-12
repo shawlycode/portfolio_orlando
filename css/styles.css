@@ -152,3 +152,40 @@ nav {
   gap: 30px;
   padding: 50px 0;
 }
+/* ABOUT STYLES */
+
+.aboutcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.aboutHead h2 {
+  color: goldenrod;
+  font-size: 50px;
+  font-weight: 700;
+}
+.aboutHead span {
+  color: rgb(4, 192, 192);
+}
+.borderDiv {
+  width: 350px;
+  height: 500px;
+  border: 5px dotted rgb(4, 192, 192);
+  position: absolute;
+  left: 14%;
+  background-color: transparent;
+}
+.about_left {
+  padding-right: 50px;
+}
+
+.aboutHead p {
+  color: rgb(223, 247, 247);
+  font-size: 18px;
+  letter-spacing: 1.3;
+  line-height: 2;
+}
+.downloadBtn {
+  padding: 50px 0;
+}
