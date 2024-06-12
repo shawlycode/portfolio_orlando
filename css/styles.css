@@ -19,6 +19,9 @@ section {
   align-items: center;
   margin: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Comfortaa', sans-serif;
   font-optical-sizing: auto;
@@ -164,17 +167,41 @@ nav {
   color: goldenrod;
   font-size: 50px;
   font-weight: 700;
+  padding-bottom: 20px;
 }
 .aboutHead span {
   color: rgb(4, 192, 192);
 }
+@keyframes example {
+  0% {
+    border: 5px dotted gold;
+  }
+  30% {
+    border: 5px dotted teal;
+  }
+  50% {
+    border: 5px dotted goldenrod;
+  }
+  80% {
+    border: 5px dotted teal;
+  }
+  100% {
+    border: 5px dotted goldenrod;
+  }
+}
 .borderDiv {
   width: 350px;
   height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border: 5px dotted rgb(4, 192, 192);
   position: absolute;
   left: 14%;
   background-color: transparent;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .about_left {
   padding-right: 50px;
@@ -188,4 +215,14 @@ nav {
 }
 .downloadBtn {
   padding: 50px 0;
+}
+.projectsText {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.projectsText span {
+  font-size: 26px;
+  font-weight: 700;
+  padding-right: 10px;
 }
