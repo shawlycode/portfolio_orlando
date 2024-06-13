@@ -243,9 +243,9 @@ nav {
   border-radius: 18px;
   /* background-color: gold; */
   padding: 20px;
-  gap: 20px;
+  gap: 30px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .services:nth-child(1) {
   border: 2px dotted goldenrod;
@@ -255,18 +255,22 @@ nav {
 .services:nth-child(2) {
   border: 2px dotted rgb(12, 253, 4);
   border-radius: 18px;
+  box-shadow: rgba(32, 218, 32, 0.363) 0px 8px 24px;
 }
 .services:nth-child(3) {
   border: 2px dotted rgb(12, 224, 214);
   border-radius: 18px;
+  box-shadow: rgba(32, 206, 218, 0.438) 0px 8px 24px;
 }
 .services:nth-child(4) {
   border: 2px dotted rgb(199, 12, 224);
   border-radius: 18px;
+  box-shadow: rgba(203, 32, 218, 0.329) 0px 8px 24px;
 }
 .services:nth-child(5) {
   border: 2px dotted rgb(215, 238, 237);
   border-radius: 18px;
+  box-shadow: rgba(215, 238, 237, 0.397);
 }
 .services h3 {
   text-transform: uppercase;
