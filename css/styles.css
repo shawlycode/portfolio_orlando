@@ -226,3 +226,13 @@ nav {
   font-weight: 700;
   padding-right: 10px;
 }
+
+/* SERVICES STYLES */
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}

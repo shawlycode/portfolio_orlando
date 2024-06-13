@@ -44,7 +44,6 @@
   color: rgb(223, 247, 247);
   font-size: 14px;
   font-weight: 300;
-
   letter-spacing: 2px;
   line-height: 18px;
 }
@@ -58,37 +57,49 @@
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: rgb(0, 140, 255);
+  background-color: teal;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px dotted rgb(32, 206, 218);
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: rgb(10, 184, 111);
+  background-color: rgb(245, 240, 215);
+  padding: 30px 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px dotted rgb(238, 225, 194);
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: rgb(211, 122, 7);
+  background-color: rgb(147, 248, 160);
+  padding: 30px 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px dotted rgb(65, 238, 12);
 }
 
 .swiper-slide:nth-child(5n) {
-  background-color: rgb(118, 163, 12);
+  background-color: rgb(155, 139, 53);
+  padding: 30px 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px dotted rgb(194, 137, 6);
 }
 
 .swiper-slide:nth-child(6n) {
-  background-color: rgb(180, 10, 47);
+  background-color: rgb(204, 245, 239);
+  padding: 30px 20px;
+  text-align: center;
+  background-color: transparent;
+  border: 2px dotted rgb(1, 132, 141);
 }
-
-.swiper-slide:nth-child(7n) {
-  background-color: rgb(35, 99, 19);
-}
-
-.swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
-}
-
-.swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
-}
-
-.swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
+.slideText {
+  padding: 30px;
+  color: gold;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
 }
