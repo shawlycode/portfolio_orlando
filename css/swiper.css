@@ -54,6 +54,8 @@
   text-align: center;
   background-color: transparent;
   border: 2px dotted goldenrod;
+
+  /* box-shadow: rgba(218, 165, 32, 0.438) 0px 8px 24px; */
 }
 
 .swiper-slide:nth-child(2n) {

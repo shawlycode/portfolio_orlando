@@ -273,6 +273,11 @@ nav {
   border-radius: 18px;
   box-shadow: rgba(237, 232, 238, 0.329) 0px 8px 24px;
 }
+.services:nth-child(6) {
+  border: 2px dotted rgb(4, 69, 247);
+  border-radius: 18px;
+  box-shadow: rgba(9, 51, 240, 0.329) 0px 8px 24px;
+}
 .services h3 {
   text-transform: uppercase;
   font-size: 20px;
@@ -432,6 +437,11 @@ footer {
   font-size: 18px;
   padding: 5px 0;
 }
+.links a:hover {
+  color: teal;
+  transition-duration: 2ms;
+  cursor: pointer;
+}
 .links h3 {
   padding: 10px 0;
   line-height: 20px;
@@ -445,17 +455,13 @@ footer {
   font-size: 24px;
   padding-right: 30px;
   padding-top: 40px;
+  color: #daa520;
+  transition: all 3ms ease-out;
 }
-.socials i:hover::before {
-  transform: scale(1.1);
-  box-shadow: 0 0 15px #ffee10;
-}
-.socials i::before {
-  color: #ffee10;
-  transform: scale(1.1);
-  box-shadow: 0 0 5px #ffee10;
-  /* text-shadow: 0 0 5px #ffee10; */
-  background-color: transparent;
+.socials i:hover {
+  color: teal;
+  transition-duration: 2ms;
+  cursor: pointer;
 }
 
 .tilt-in-left-1 {
